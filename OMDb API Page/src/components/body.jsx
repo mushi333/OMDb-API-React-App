@@ -4,7 +4,7 @@ export default function Body({ movieData }) {
       <td style={{ fontWeight: "bold" }}>{movie.Title}</td>
       <td>{movie.Released}</td>
       <td>{movie.Director}</td>
-      <td>{movie.Genre}</td>
+      <td>{movie.Type}</td>
     </tr>
   ));
 
@@ -18,7 +18,7 @@ export default function Body({ movieData }) {
               <th></th>
               <th>Date Released</th>
               <th>Director</th>
-              <th>Genre</th>
+              <th>Type</th>
             </tr>
           </thead>
           <tbody>{movies}</tbody>
